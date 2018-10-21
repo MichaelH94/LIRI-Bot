@@ -130,7 +130,6 @@ function doWIS() {
             var dataSplit = data.split(',');
             var readCommand = dataSplit[0];
             var readParam = dataSplit[1];
-            
             for(x = 2; x < dataSplit.length; x++) {
                 readParam = readParam + "+" + dataSplit[i];
             };
